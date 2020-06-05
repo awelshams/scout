@@ -1,0 +1,237 @@
+/* general stylings */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.coloured{
+    background-color:goldenrod;
+}
+
+.coloured-img{
+    width: 1%;
+    height: 1%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header navbar styling */
+.navbar-collapse{
+    margin-left: 9%;
+}
+
+.nav-item:hover{
+    background-color:gold;
+}
+
+.nav-item{
+    padding:0px 45px;
+}
+
+#header{
+    padding: 0% 0%;
+}
+
+.title-section{
+    padding-top: 5%;
+    margin-left: 4%;
+}
+
+.title-header h1{
+    color: white;
+    font-size: 3.9rem;
+    font-weight: bold;
+}
+
+.btn{
+    margin-bottom: 4%;
+}
+
+.img-holder{
+    margin-bottom: 4%;
+}
+
+
+
+/* features styling */
+
+.section{
+    margin-top: 4%;
+    text-align: center;
+    padding:10px 10px;
+}
+
+.features-header{
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.features-card{
+    text-align: center;
+}
+
+.features-icon{
+    color: rgb(5, 5, 53);
+}
+
+/* photos */
+
+.photo-album{
+    margin-top: 4%;
+    background-color: goldenrod;
+}
+
+.colour{
+    text-align: center;
+    background-color: goldenrod;
+}
+
+.space{
+    margin-right: 5%;
+}
+
+.white{
+    color:white;
+    padding-top: 3%;
+}
+
+.centers{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+.center{
+    text-align: center;
+    padding-bottom: 3%;
+    color: white;
+    padding-top: 3%;
+}
+
+/* card styling */
+.pricing-tag{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.card{
+    background-color:goldenrod;
+    margin-bottom: 4%;
+}
+
+
+
+.card-title{
+    border-bottom: 9px;
+    border: 4px solid rgb(6, 6, 36);
+    text-align: center;
+}
+
+.card-header{
+    font-size: 2rem;
+}
+
+table{
+    font-size: 2rem;
+}
+
+.footer-btn{
+    font-size: 1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* footer styling */
+footer{
+    text-align: center;
+    margin-top: 4%;
+    background-color: goldenrod;
+    color: white;
+}
+
+.big{
+    margin-right: 8%;
+    color: white;
+    padding-top: 2%;
+}
+
+footer p{
+    margin-top:2%;
+}
+
+.footer-text{
+    padding-bottom: 2%;
+}
+
+
+@media only screen and (max-width:768px){
+    .card-title{
+        margin-right: 10%;
+        padding-right: 10%;
+        margin-bottom: 4%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .pricings{
+        padding-right: 6%;
+        margin-bottom: 4%;
+        margin-left: 10%;
+    }
+
+    .pricing-tag{
+        margin-top: 5%;
+    }
+
+    .bottom1{
+        margin-bottom: 4%; 
+    } 
+
+    .bottom2{
+        margin-bottom: 4%; 
+    } 
+
+    .bottom3{
+        margin-bottom: 4%; 
+    } 
+
+    .bottom4{
+        padding-bottom: 5%;
+    } 
+
+    .photo-album{
+        width: 100%;
+        height: 100%;
+    }
+
+    .space{
+        padding-bottom: 4%;
+        padding-top: 4%;
+    }
+   table{
+       margin-left: 14%;
+   }
+
+   .big{
+       margin-top: 2%;
+   }
+
+   .centers{
+       margin-top: 2%;
+   }
+}
